@@ -64,4 +64,31 @@ const Navigation: React.FC<NavigationProps> = ({ currentSection, onSectionChange
   );
 };
 
+export const MobileNavigation: React.FC<NavigationProps> = ({ currentSection, onSectionChange, sections }) => {
+  const icons = [
+    <Heart className="w-5 h-5" />,
+    <Camera className="w-5 h-5" />,
+    <Clock className="w-5 h-5" />,
+    <Mail className="w-5 h-5" />,
+    <HelpCircle className="w-5 h-5" />,
+    <MessageCircle className="w-5 h-5" />
+  ];
+
+  return (
+    <nav className="fixed bottom-0 left-0 right-0 z-40 bg-white/80 backdrop-blur-md border-t border-rose-100 flex justify-around md:hidden">
+      {sections.map((section, index) => (
+        <button
+          key={section}
+          onClick={() => onSectionChange(index)}
+          className={`flex flex-col items-center justify-center py-2 px-3 transition-all duration-200 ${
+            currentSection === index ? 'text-rose-500' : 'text-rose-400'
+          }`}
+        >
+          {icons[index]}
+        </button>
+      ))}
+    </nav>
+  );
+};
+
 export default Navigation;

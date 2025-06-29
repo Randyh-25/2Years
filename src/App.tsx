@@ -6,7 +6,7 @@ import Timeline from './components/Timeline';
 import LoveLetter from './components/LoveLetter';
 import LoveQuiz from './components/LoveQuiz';
 import WishForm from './components/WishForm';
-import Navigation from './components/Navigation';
+import Navigation, { MobileNavigation } from './components/Navigation';
 import { Volume2, VolumeX } from 'lucide-react';
 
 function App() {
@@ -77,6 +77,11 @@ function App() {
 
       {/* Navigation */}
       <Navigation 
+        currentSection={currentSection} 
+        onSectionChange={scrollTo}
+        sections={sections}
+      />
+      <MobileNavigation 
         currentSection={currentSection} 
         onSectionChange={scrollTo}
         sections={sections}
