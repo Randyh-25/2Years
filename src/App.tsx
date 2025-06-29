@@ -25,7 +25,7 @@ function App() {
 
   useEffect(() => {
     // Initialize ambient music
-    const audio = new Audio('https://www.soundjay.com/misc/sounds/bell-ringing-05.wav');
+    const audio = new Audio('/backsound.mp3'); // Ganti path sesuai nama file backsound kamu
     audio.loop = true;
     audio.volume = 0.3;
     setAudioElement(audio);
