@@ -25,7 +25,7 @@ const photos: Photo[] = [
   },
   {
     id: 2,
-    url: 'https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://raw.githubusercontent.com/Randyh-25/2Years/refs/heads/master/src/img/2.jpeg',
     caption: 'Kencan Pertama',
     date: '10 Juni 2023',
     story: 'Gugup tapi bahagia, hati berdebar tapi tenang bersamamu ✨',
