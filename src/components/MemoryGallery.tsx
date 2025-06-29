@@ -337,7 +337,8 @@ const Photo3D: React.FC<{ photo: Photo }> = ({ photo }) => {
     loader.load(
       photo.url,
       (loadedTexture) => {
-        loadedTexture.flipY = false;
+        // Fix: set flipY to true for correct orientation (default for most images)
+        loadedTexture.flipY = true;
         setFrontTexture(loadedTexture);
       },
       undefined,

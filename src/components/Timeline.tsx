@@ -20,7 +20,7 @@ const timelineEvents: TimelineEvent[] = [
     description: 'Mahasiswa baru yang takdir mempertemukan kita di orientasi kampus. Siapa sangka momen sederhana ini akan menjadi awal dari cerita yang indah.',
     icon: <MapPin className="w-5 h-5" />,
     color: 'bg-blue-500',
-    image: 'https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186204/1_a02kg2.jpg'
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const timelineEvents: TimelineEvent[] = [
     description: '"Pagi-pagi kok galau njell?" - Kalimat sederhana yang mengubah segalanya. Randy membalas story Instagram Enjelly dan percakapan dimulai lagi.',
     icon: <MessageCircle className="w-5 h-5" />,
     color: 'bg-green-500',
-    image: 'https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751193924/bjir_oswdic.jpg'
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const timelineEvents: TimelineEvent[] = [
     description: 'Hari yang tak terlupakan ketika kita memutuskan untuk menjalani perjalanan cinta ini bersama. Awal dari "kita" yang sesungguhnya.',
     icon: <Heart className="w-5 h-5" />,
     color: 'bg-rose-500',
-    image: 'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186254/4_epupl5.jpg'
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const timelineEvents: TimelineEvent[] = [
     description: 'Hari ini kita merayakan dua tahun perjalanan cinta yang penuh warna. Meskipun jarak memisahkan, cinta kita semakin kuat.',
     icon: <Calendar className="w-5 h-5" />,
     color: 'bg-purple-500',
-    image: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=400'
+    image: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751193824/anjay_dseobz.jpg'
   }
 ];
 
