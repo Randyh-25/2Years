@@ -17,7 +17,7 @@ interface Photo {
 const photos: Photo[] = [
   {
     id: 1,
-    url: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://raw.githubusercontent.com/Randyh-25/2Years/refs/heads/master/src/img/1.jpeg',
     caption: 'Momen Pertama Kita',
     date: '31 Mei 2023',
     story: 'Hari ketika semuanya dimulai dengan "pagi-pagi kok galau njell?" 💕',
