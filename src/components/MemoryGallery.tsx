@@ -17,51 +17,219 @@ interface Photo {
 const photos: Photo[] = [
   {
     id: 1,
-    url: 'https://raw.githubusercontent.com/Randyh-25/2Years/refs/heads/master/src/img/1.jpeg',
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186204/1_a02kg2.jpg',
     caption: 'Momen Pertama Kita',
-    date: '31 Mei 2023',
-    story: 'Hari ketika semuanya dimulai dengan "pagi-pagi kok galau njell?" 💕',
-    backText: 'Awal dari segalanya dimulai dari sini. Sebuah balasan sederhana yang mengubah hidup kita berdua. Terima kasih sudah menjawab story-ku waktu itu, sayang. ❤️'
+    date: '8 Agustus 2022',
+    story: 'Hari ketika semuanya dimulai dengan bertemu dirimu di Embung A ITERA💕',
+    backText: 'Awal dari segalanya dimulai dari sini. Kita bertemu di Embung A, disana kamu duduk disebelahku. Aku masih ingat betapa gugupnya aku saat itu, tapi senyummu membuatku merasa tenang. Sejak hari itu, hidupku berubah selamanya. 💖'
   },
   {
     id: 2,
-    url: 'https://raw.githubusercontent.com/Randyh-25/2Years/refs/heads/master/src/img/2.jpeg',
-    caption: 'Kencan Pertama',
-    date: '10 Juni 2023',
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186186/2_srh6cq.jpg',
+    caption: 'Foto Pertama',
+    date: '20 Agustus 2022',
     story: 'Gugup tapi bahagia, hati berdebar tapi tenang bersamamu ✨',
-    backText: 'Kencan pertama kita yang canggung tapi manis. Aku masih ingat betapa gugupnya aku waktu itu, tapi kamu berhasil membuatku merasa nyaman. 💕'
+    backText: 'Foto pertama kita yang canggung tapi manis. Aku masih ingat betapa gugupnya aku waktu itu, tapi kamu berhasil membuatku merasa nyaman. 💕'
   },
   {
     id: 3,
-    url: 'https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Hari Jadian Kita',
-    date: '30 Juni 2023',
-    story: 'Hari yang tidak akan pernah terlupa, awal dari selamanya 💖',
-    backText: '30 Juni 2023 - Hari yang mengubah status kita menjadi "kita". Hari dimana aku berani mengungkapkan perasaanku dan kamu menerimanya dengan senyuman manis. 🥰'
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186194/5_nsejpi.jpg',
+    caption: 'Ke DIY Pertama',
+    date: '03 September 2023',
+    story: 'Inget ini tidak?',
+    backText: 'Kita menggambar kenangan indah yang selalu terukir dan menempel di dinding kosan'
   },
   {
     id: 4,
-    url: 'https://images.pexels.com/photos/1024970/pexels-photo-1024970.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Liburan Bersama',
-    date: '15 Agustus 2023',
-    story: 'Setiap tempat jadi lebih indah kalau bersamamu 🌟',
-    backText: 'Liburan pertama kita berdua. Setiap tempat yang kita kunjungi jadi berkesan karena ada kamu di sampingku. Semoga bisa jalan-jalan lagi ya sayang! ✈️'
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186155/6_crgj5m.jpg',
+    caption: 'Beli Seblak Pertama',
+    date: '06 September 2023',
+    story: 'Ini momen yang tak terlupakan, beli seblak pertama kita berdua di pinggir jalan 🌶️',
+    backText: 'Malam itu kamu pengen makan seblak, jadi kita ke belwis buat beli seblak. Kita duduk di pinggir jalan sambil menunggu abangnya buatin pesenan kita 🌶️❤️'
   },
   {
     id: 5,
-    url: 'https://images.pexels.com/photos/1024968/pexels-photo-1024968.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Ulang Tahun Pertama',
-    date: '12 November 2023',
-    story: 'Merayakan hari spesialmu dengan cinta yang tak terbatas 🎂',
-    backText: 'Ulang tahun pertama yang kita rayakan bersama. Melihat senyummu saat meniup lilin adalah hadiah terbaik untukku. Happy birthday my love! 🎉'
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186156/7_iftmht.jpg',
+    caption: 'Nonton Bioskop Pertama',
+    date: '08 September 2023',
+    story: 'Nonton bioskop pertama kita berdua, rasanya seperti mimpi yang jadi kenyataan 🍿',
+    backText: 'Ini momen yang sangat spesial, nonton bioskop pertama kita berdua. Kita nonton film horror, dan aku masih ingat betapa bahagianya kita saat itu. 🍿❤️'
   },
   {
     id: 6,
-    url: 'https://images.pexels.com/photos/1851148/pexels-photo-1851148.jpeg?auto=compress&cs=tinysrgb&w=800',
-    caption: 'Tahun Baru Bersama',
-    date: '1 Januari 2024',
-    story: 'Memulai tahun baru dengan harapan dan cinta yang sama 🎊',
-    backText: 'Tahun baru pertama kita bersama. Berharap tahun ini dan tahun-tahun selanjutnya kita selalu bersama. Selamat tahun baru sayang! 🎆'
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186161/8_rxqxra.jpg',
+    caption: 'Mengantar Kamu ke Kampus',
+    date: '29 September 2023',
+    story: 'Hari itu aku mengantar kamu ke kampus karena kamu ada acara WCD',
+    backText: 'Ini salah satu momen aku mengantar kamu ke kampus. Kita ngobrol sepanjang jalan, dan aku merasa sangat bahagia bisa menghabiskan waktu bersamamu. 💕'
+  },
+  {
+    id: 7,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186154/9_au5bhc.jpg',
+    caption: 'Healing ke Embung Kebun Raya',
+    date: '1 Oktober 2023',
+    story: 'Hari itu kita pergi ke Embung Kebun Raya untuk healing, menikmati keindahan alam dan kebersamaan kita 🌳',
+    backText: 'Hari itu kita pergi ke Embung Kebun Raya untuk healing. Kita duduk di tepi embung, menikmati keindahan alam dan kebersamaan kita. Aku masih ingat betapa bahagianya aku saat itu, melihat senyummu yang cerah. 🌳❤️'
+  },
+  {
+    id: 8,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186172/10_il62b4.jpg',
+    caption: 'Jalan-Jalan ke Kemiling',
+    date: '15 Oktober 2023',
+    story: 'Hari itu kita jalan-jalan ke Kemiling, menikmati suasana bukit dan berbagi cerita',
+    backText: 'Hari dimana kita jalan-jalan ke atas bukit kemiling, menikmati sejuknya udara disana, dan jauh dari kota yang berisik. Kita berbagi cerita, tertawa, dan menikmati momen-momen kecil yang membuat kita semakin dekat. 🌄❤️'
+  },
+  {
+    id: 9,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186171/11_dw35vs.jpg',
+    caption: 'Kamu & Rusa Kemiling',
+    date: '15 Oktober 2023',
+    story: 'Kamu berfoto dengan rusa di Kemiling, momen lucu dan menggemaskan 🦌',
+    backText: 'Kamu terlihat sangat bahagia saat berfoto dengan rusa itu. Momen yang tak terlupakan! 🦌❤️'
+  },
+  {
+    id: 10,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186165/12_rpkxut.jpg',
+    caption: 'Bersantai di Taman Kemiling',
+    date: '15 Oktober 2023',
+    story: 'Hari itu kita bersantai di taman Kemiling, menikmati suasana yang tenang dan damai 🌼',
+    backText: 'Momen yang sangat menenangkan, kita duduk di bangku taman sambil menikmati sosis favoritmu dan berbincang ringan. 🌼❤️'
+  },
+  {
+    id: 11,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186173/13_vnejg5.jpg',
+    caption: 'Ke Pantai Pertama Kali',
+    date: '12 November 2023',
+    story: 'Hari itu kita pergi ke pantai pasir putih untuk pertama kalinya, merasakan pasir dan ombak bersama 🌊',
+    backText: 'Momen yang sangat spesial, kita bermain di pantai, merasakan ombak yang datang dan pergi. Aku masih ingat betapa bahagianya kita saat itu. 🌊❤️'
+  },
+  {
+    id: 12,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186170/14_zjjsro.jpg',
+    caption: 'Salah Satu Kegiatan di Kosan(Iseng)',
+    date: '21 November 2023',
+    story: 'Salah satu kegiatan iseng kita di kosan, membuat kenangan kecil yang berarti',
+    backText: 'Salah satu momen iseng kita di kosan, kita membuat kenangan kecil yang berarti. Kita tertawa, bercanda, dan menikmati kebersamaan kita. Momen-momen seperti ini yang membuat hubungan kita semakin kuat. ❤️'
+  },
+  {
+    id: 13,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186181/15_r83dtk.jpg',
+    caption: 'Acara Leadership Training ITERA',
+    date: '09 Desember 2023',
+    story: 'Hari itu kita mengikuti acara Leadership Training di ITERA, belajar banyak hal baru dan memperkuat hubungan kita',
+    backText: 'Momen yang sangat berharga, kita belajar banyak hal baru dan saling mendukung satu sama lain. Aku merasa hubungan kita semakin kuat setelah mengikuti acara ini. ❤️'
+  },
+  {
+    id: 14,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186176/16_lr8ssk.jpg',
+    caption: 'Tahun Baru 2024',
+    date: '31 Desember 2023',
+    story: 'Malam tahun baru yang penuh harapan dan kebahagiaan, merayakan bersama orang yang paling aku sayang 🎉',
+    backText: 'Momen yang sangat spesial, kita merayakan tahun baru dengan penuh suka cita. Aku bersyukur bisa menghabiskan waktu bersamamu. 🎉❤️'
+  },
+  {
+    id: 15,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186175/17_o70huq.jpg',
+    caption: 'Bahagia',
+    date: '17 Februari 2024',
+    story: 'Kita tertawa bahagia atas apapun yang kita lakukan, momen yang selalu aku ingat',
+    backText: 'Ini kita iseng foto bareng, entah apa yang kita tertawakan saat itu, tapi aku ingat betapa bahagianya kita. Momen-momen seperti ini yang membuat hidupku terasa lengkap. ❤️'
+  },
+  {
+    id: 16,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186179/18_rxmoq2.jpg',
+    caption: 'Keliling Gramedia',
+    date: '3 Maret 2024',
+    story: 'Keliling Gramedia, melihat buku-buku yang kita suka, berbagi cerita dan impian',
+    backText: 'Keliling Gramedia adalah salah satu kegiatan favorit kita. Kita melihat buku-buku yang kita suka, berbagi cerita dan impian. Aku merasa sangat beruntung bisa menghabiskan waktu bersamamu di tempat yang kita cintai ini. 📚❤️'
+  },
+  {
+    id: 17,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186184/19_uat0co.jpg',
+    caption: 'Ke Pantai di Daerah Panjang',
+    date: '09 Maret 2024',
+    story: 'Hari itu kita pergi ke pantai di daerah Panjang, menikmati suasana pantai yang indah dan berbagi cerita',
+    backText: 'Hari itu kita pergi ke pantai di daerah Panjang, menikmati suasana pantai yang indah. Kita berjalan di tepi pantai, merasakan pasir di kaki kita, dan berbagi cerita tentang impian dan harapan kita. Momen-momen seperti ini yang membuatku semakin mencintaimu. 🌊❤️'
+  },
+  {
+    id: 18,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186181/20_xihwxe.jpg',
+    caption: 'Jalan-Jalan ke Pasar Malam',
+    date: '20 April 2024',
+    story: 'Jalan-jalan ke pasar malam, menikmati suasana yang ramai dan berbagi kebahagiaan',
+    backText: 'Aku ingat dimana kamu ingin menggunakan dress kamu yang baru, jadi kita pergi ke pasar malam. Kita menikmati suasana yang ramai, mencicipi makanan enak, dan berbagi kebahagiaan. Momen-momen seperti ini yang membuat hidupku terasa lengkap. 🎡❤️'
+  },
+  {
+    id: 19,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186160/21_jkxuik.jpg',
+    caption: 'Jalan-Jalan ke Pasar Malam #2',
+    date: '31 Juli 2024',
+    story: 'Jalan-jalan ke pasar malam lagi, kali ini dengan suasana yang lebih ceria dan penuh warna 🎠',
+    backText: 'Setelah terpisah karena libur kuliah, kita akhirnya bisa jalan-jalan ke pasar malam lagi. Kita menikmati suasana yang lebih ceria dan penuh warna. Aku merasa sangat beruntung bisa menghabiskan waktu bersamamu di tempat yang kita cintai ini. 🎠❤️'
+  },
+  {
+    id: 20,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186165/22_fhhgcn.jpg',
+    caption: 'Masih di Embung Kebun Raya',
+    date: '1 November 2024',
+    story: 'Masih di Embung Kebun Raya, menikmati suasana yang tenang dan damai',
+    backText: 'Embung ini adalah tempat yang sangat spesial bagi kita. Kita sering datang ke sini untuk bersantai, berbagi cerita, dan menikmati keindahan alam. Aku merasa sangat beruntung bisa menghabiskan waktu bersamamu di tempat yang kita cintai ini. 🌳❤️'
+  },
+  {
+    id: 21,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186169/24_cwpy6r.jpg',
+    caption: 'Seminar Hasil Kuliah Praktek',
+    date: '04 November 2024',
+    story: 'Seminar hasil kuliah praktek, momen yang penuh kebanggaan dan harapan untuk masa depan',
+    backText: 'Hari itu kamu berhasil menyelesaikan seminar hasil kuliah praktek dengan baik. Aku merasa sangat bangga padamu. Momen-momen seperti ini yang membuatku semakin mencintaimu. Aku yakin masa depan kita akan cerah bersama. 🌟❤️'
+  },
+  {
+    id: 22,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186163/23_jloaka.jpg',
+    caption: 'Foto Bersama',
+    date: '04 November 2024',
+    story: 'Setelah selesai seminar kita foto bersama',
+    backText: 'Momen ini sangat spesial bagi kita. Kita bisa mengabadikan kenangan indah ini dan mengenangnya di masa depan. 📸❤️'
+  },
+  {
+    id: 23,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186173/25_ylu23a.jpg',
+    caption: 'Ulang Tahun Kamu',
+    date: '25 Desember 2024',
+    story: 'Selamat ulang tahun sayang! Hari ini adalah hari spesial untukmu, aku berharap semua impianmu tercapai 🎂',
+    backText: 'Selamat ulang tahun sayang! Hari ini adalah hari spesial untukmu, aku berharap semua impianmu tercapai. Aku sangat bersyukur bisa menghabiskan waktu bersamamu di hari istimewa ini. 🎂❤️'
+  },
+  {
+    id: 24,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186177/26_nwoa0v.jpg',
+    caption: 'Tahun Baru Kita Yang Kedua',
+    date: '31 Desember 2024',
+    story: 'Malam tahun baru yang penuh harapan dan kebahagiaan, merayakan bersama orang yang paling aku sayang 🎉',
+    backText: 'Momen ini sangat spesial bagi kita. Kita bisa mengabadikan kenangan indah ini dan mengenangnya di masa depan. 🎉❤️'
+  },
+  {
+    id: 25,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186179/27_djkqv4.jpg',
+    caption: 'Masih di Tahun Baru',
+    date: '31 Desember 2025',
+    story: 'Senyum bahagia di tahun baru, berharap semua impian kita tercapai di tahun ini',
+    backText: 'Aku masih ingat betapa bahagianya kita saat itu, melihat kembang api yang indah dan merayakan tahun baru bersama. Aku berharap tahun ini akan menjadi tahun yang penuh kebahagiaan dan kesuksesan bagi kita berdua. 🎇❤️'
+  },
+  {
+    id: 26,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186184/28_ajcijt.jpg',
+    caption: 'Nonton Komang di Bioskop',
+    date: '12 April 2025',
+    story: 'Hari dimana kita nonton film Komang di bioskop, momen yang penuh tawa dan kebahagiaan',
+    backText: 'Aku masih ingat kamu menangis karena haru di akhir film. Momen itu sangat berarti bagi kita berdua. 🎬❤️'
+  },
+  {
+    id: 27,
+    url: 'https://res.cloudinary.com/dwfz1iaay/image/upload/v1751186195/29_qu0yhu.jpg',
+    caption: 'Masih Dengan Kebun Raya',
+    date: '15 April 2025',
+    story: 'Masih di Kebun Raya, menikmati suasana yang tenang dan damai',
+    backText: 'Aku merasa sangat beruntung bisa menghabiskan waktu bersamamu di tempat yang kita cintai ini. 🌳❤️'
   }
 ];
 
