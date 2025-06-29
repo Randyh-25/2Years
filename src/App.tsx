@@ -39,6 +39,10 @@ function App() {
     };
   }, []);
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [currentSection]);
+
   const toggleMusic = () => {
     if (audioElement) {
       if (isMusicPlaying) {
